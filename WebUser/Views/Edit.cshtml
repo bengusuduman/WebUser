@@ -1,0 +1,15 @@
+﻿@model  WebUser.DataModel.User
+
+<h1>Edit</h1>
+
+<form asp action="Edit">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+</form>
